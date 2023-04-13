@@ -1,0 +1,34 @@
+{
+  "name": "@neuralnorthwest/ceinit",
+  "version": "1.0.0",
+  "description": "A tool for creating Chrome extensions",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ceinit": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuralnorthwest/ceinit"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "generator",
+    "template",
+    "tool"
+  ],
+  "author": "Neural Northwest LLC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/neuralnorthwest/ceinit/issues"
+  },
+  "homepage": "https://github.com/neuralnorthwest/ceinit#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "yargs": "^17.7.1"
+  }
+}
